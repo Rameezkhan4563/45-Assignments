@@ -1,4 +1,5 @@
+"use strict";
 //Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
-var personName = "Rameez";
-var message1 = "Hello ".concat(personName, ", would you like to learn some python today?");
+let personName = "Rameez";
+let message1 = `Hello ${personName}, would you like to learn some python today?`;
 console.log(message1);
