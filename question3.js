@@ -1,7 +1,10 @@
 //Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 var personName1 = "My name is Rameez ahmed khan";
+//LOWER CASE
 console.log(personName1.toLowerCase());
+//UPPER CASE
 console.log(personName1.toUpperCase());
+//TITLE CASE
 //step 1:
 var words = personName1.split(" ");
 //step 2:
